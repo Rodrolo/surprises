@@ -1,5 +1,5 @@
 body{
-    background: #fadede;
+    background: #f0caca;
 }
 
 .container{
@@ -7,20 +7,21 @@ body{
     height: 400px;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 55%;
     transform: translate(-50%,-50%);
 }
 
 h1{
-    font-family: 'Sacramento', cursive;
+    font-family: 'Gochi Hand', cursive;
     color: #FE7696;
-    font-size: 64px;
+    font-size: 55px;
 }
 
 .letter{
-    width: 600px;
-    height: 400px;
+    width: 550px;
+    height: 450px;
     display: inline-block;
+    text-align: center;
 }
 
 .rose{
@@ -29,8 +30,8 @@ h1{
     position: absolute;
     right: 0;
     display: inline-block;
-    animation: yidon 5s infinite;
-    transform: translateY(40%);
+
+    transform: translateY(20%);
 }
 
 .petal{
